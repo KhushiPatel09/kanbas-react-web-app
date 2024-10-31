@@ -1,9 +1,13 @@
 import { FaPlus } from "react-icons/fa6";
 import GreenCheckmark from "./GreenCheckmark";
 import { MdDoNotDisturbAlt } from "react-icons/md";
+import ModuleEditor from "./ModuleEditor";
 
 
-export default function ModulesControls() {
+export default function ModulesControls(
+  { moduleName, setModuleName, addModule }:
+  { moduleName: string; setModuleName: (title: string) => void; addModule: () => void; }
+) {
   return (
     <div id="wd-modules-controls" className="d-flex justify-content-end text-nowrap">
       <button id="wd-collapse-all" className="btn btn-lg btn-secondary me-1" type="button">Collapse All</button>
@@ -24,9 +28,7 @@ export default function ModulesControls() {
               <GreenCheckmark />
               Publish modules only</a>
           </li>
-          {/* Create two more items with IDs wd-unpublish-all-modules-and-items and
-              wd-unpublish-modules-only with labels Unpublish all modules and items
-              and Unpublish modules only */}
+
 
           <li>
             <a id="wd-unpublish-all-modules-and-items" className="dropdown-item" href="#">
@@ -39,14 +41,13 @@ export default function ModulesControls() {
         </ul>
       </div>
 
-      <button id="wd-add-module-btn" className="btn btn-lg btn-danger me-1">
+      <button id="wd-add-module-btn" data-bs-toggle="modal" data-bs-target="#wd-add-module-dialog" 
+              className="btn btn-lg btn-danger me-1">
         <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
         Module
       </button>
-      
-      {/* Implement the View Progress and Collapse All buttons with IDs wd-view-progress and wd-collapse-all */}
-      {/* <button id="wd-collapse-all" className="btn btn-lg btn-secondary me-1" type="button">Collapse All</button>
-      <button id="wd-view-progress" className="btn btn-lg btn-secondary" type="button">View Progress</button> */}
+      <ModuleEditor dialogTitle="Add Module" moduleName={moduleName}
+            setModuleName={setModuleName} addModule={addModule} />
 
     </div>
 );}

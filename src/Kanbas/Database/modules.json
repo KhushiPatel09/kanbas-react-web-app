@@ -551,7 +551,7 @@
 
 
     {
-      "_id": "M101",
+      "_id": "M000",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS108",
@@ -560,24 +560,24 @@
           "_id": "L101",
           "name": "HTML Structure",
           "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
+          "module": "M000"
         },
         {
           "_id": "L102",
           "name": "Text Formatting",
           "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
+          "module": "M000"
         },
         {
           "_id": "L103",
           "name": "Links and Images",
           "description": "Overview of different types of rocket engines.",
-          "module": "M101"
+          "module": "M000"
         }
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M111",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS108",
@@ -586,24 +586,24 @@
           "_id": "L201",
           "name": "Selectors and Properties",
           "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
+          "module": "M111"
         },
         {
           "_id": "L202",
           "name": "Box Model",
           "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
+          "module": "M111"
         },
         {
           "_id": "L203",
           "name": "Flexbox and Grid Layout",
           "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
+          "module": "M111"
         }
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M222",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS108",
@@ -612,25 +612,25 @@
           "_id": "L301",
           "name": "Variables and Data types",
           "description": "Overview of different types of rocket nozzles.",
-          "module": "M103"
+          "module": "M222"
         },
         {
           "_id": "L302",
           "name": "Functions and Events",
           "description": "Understanding nozzle performance and efficiency.",
-          "module": "M103"
+          "module": "M222"
         },
         {
           "_id": "L303",
           "name": "DOM Manipulation",
           "description": "Optimizing nozzle design for specific applications.",
-          "module": "M103"
+          "module": "M222"
         }
       ]
     },
 
     {
-      "_id": "M101",
+      "_id": "M333",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS109",
@@ -639,24 +639,24 @@
           "_id": "L101",
           "name": "HTML Structure",
           "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
+          "module": "M333"
         },
         {
           "_id": "L102",
           "name": "Text Formatting",
           "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
+          "module": "M333"
         },
         {
           "_id": "L103",
           "name": "Links and Images",
           "description": "Overview of different types of rocket engines.",
-          "module": "M101"
+          "module": "M333"
         }
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M444",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS109",
@@ -665,24 +665,24 @@
           "_id": "L201",
           "name": "Selectors and Properties",
           "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
+          "module": "M444"
         },
         {
           "_id": "L202",
           "name": "Box Model",
           "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
+          "module": "M444"
         },
         {
           "_id": "L203",
           "name": "Flexbox and Grid Layout",
           "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
+          "module": "M444"
         }
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M555",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS109",
@@ -691,25 +691,25 @@
           "_id": "L301",
           "name": "Variables and Data types",
           "description": "Overview of different types of rocket nozzles.",
-          "module": "M103"
+          "module": "M555"
         },
         {
           "_id": "L302",
           "name": "Functions and Events",
           "description": "Understanding nozzle performance and efficiency.",
-          "module": "M103"
+          "module": "M555"
         },
         {
           "_id": "L303",
           "name": "DOM Manipulation",
           "description": "Optimizing nozzle design for specific applications.",
-          "module": "M103"
+          "module": "M555"
         }
       ]
     }, 
 
     {
-      "_id": "M101",
+      "_id": "M666",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS110",
@@ -718,24 +718,24 @@
           "_id": "L101",
           "name": "HTML Structure",
           "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
+          "module": "M666"
         },
         {
           "_id": "L102",
           "name": "Text Formatting",
           "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
+          "module": "M666"
         },
         {
           "_id": "L103",
           "name": "Links and Images",
           "description": "Overview of different types of rocket engines.",
-          "module": "M101"
+          "module": "M666"
         }
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M777",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS110",
@@ -744,24 +744,24 @@
           "_id": "L201",
           "name": "Selectors and Properties",
           "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
+          "module": "M777"
         },
         {
           "_id": "L202",
           "name": "Box Model",
           "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
+          "module": "M777"
         },
         {
           "_id": "L203",
           "name": "Flexbox and Grid Layout",
           "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
+          "module": "M777"
         }
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M888",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS110",
@@ -770,25 +770,25 @@
           "_id": "L301",
           "name": "Variables and Data types",
           "description": "Overview of different types of rocket nozzles.",
-          "module": "M103"
+          "module": "M888"
         },
         {
           "_id": "L302",
           "name": "Functions and Events",
           "description": "Understanding nozzle performance and efficiency.",
-          "module": "M103"
+          "module": "M888"
         },
         {
           "_id": "L303",
           "name": "DOM Manipulation",
           "description": "Optimizing nozzle design for specific applications.",
-          "module": "M103"
+          "module": "M888"
         }
       ]
     },
 
     {
-      "_id": "M101",
+      "_id": "M999",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS111",
@@ -797,24 +797,24 @@
           "_id": "L101",
           "name": "HTML Structure",
           "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
+          "module": "M999"
         },
         {
           "_id": "L102",
           "name": "Text Formatting",
           "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
+          "module": "M999"
         },
         {
           "_id": "L103",
           "name": "Links and Images",
           "description": "Overview of different types of rocket engines.",
-          "module": "M101"
+          "module": "M999"
         }
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M108",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS111",
@@ -823,27 +823,186 @@
           "_id": "L201",
           "name": "Selectors and Properties",
           "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
+          "module": "M108"
         },
         {
           "_id": "L202",
           "name": "Box Model",
           "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
+          "module": "M108"
         },
         {
           "_id": "L203",
           "name": "Flexbox and Grid Layout",
           "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
+          "module": "M108"
         }
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M109",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS111",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Variables and Data types",
+          "description": "Overview of different types of rocket nozzles.",
+          "module": "M109"
+        },
+        {
+          "_id": "L302",
+          "name": "Functions and Events",
+          "description": "Understanding nozzle performance and efficiency.",
+          "module": "M109"
+        },
+        {
+          "_id": "L303",
+          "name": "DOM Manipulation",
+          "description": "Optimizing nozzle design for specific applications.",
+          "module": "M109"
+        }
+      ]
+    },
+
+
+    {
+      "_id": "M1",
+      "name": "Introduction to HTML",
+      "description": "Basic principles of rocket propulsion and rocket engines.",
+      "course": "RS112",
+      "lessons": [
+        {
+          "_id": "L101",
+          "name": "HTML Structure",
+          "description": "A brief history of rocketry and space exploration.",
+          "module": "M1"
+        },
+        {
+          "_id": "L102",
+          "name": "Text Formatting",
+          "description": "Basic principles of rocket propulsion.",
+          "module": "M1"
+        },
+        {
+          "_id": "L103",
+          "name": "Links and Images",
+          "description": "Overview of different types of rocket engines.",
+          "module": "M1"
+        }
+      ]
+    },
+    {
+      "_id": "M2",
+      "name": "CSS and Styling",
+      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+      "course": "RS112",
+      "lessons": [
+        {
+          "_id": "L201",
+          "name": "Selectors and Properties",
+          "description": "Overview of different types of rocket fuels.",
+          "module": "M2"
+        },
+        {
+          "_id": "L202",
+          "name": "Box Model",
+          "description": "Understanding combustion processes and efficiency.",
+          "module": "M2"
+        },
+        {
+          "_id": "L203",
+          "name": "Flexbox and Grid Layout",
+          "description": "Understanding combustion instability and mitigation.",
+          "module": "M2"
+        }
+      ]
+    },
+    {
+      "_id": "M3",
+      "name": "JavaScript Basics",
+      "description": "Principles of rocket nozzle design and performance optimization.",
+      "course": "RS112",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Variables and Data types",
+          "description": "Overview of different types of rocket nozzles.",
+          "module": "M3"
+        },
+        {
+          "_id": "L302",
+          "name": "Functions and Events",
+          "description": "Understanding nozzle performance and efficiency.",
+          "module": "M3"
+        },
+        {
+          "_id": "L303",
+          "name": "DOM Manipulation",
+          "description": "Optimizing nozzle design for specific applications.",
+          "module": "M3"
+        }
+      ]
+    },
+
+    {
+      "_id": "M4",
+      "name": "Introduction to HTML",
+      "description": "Basic principles of rocket propulsion and rocket engines.",
+      "course": "RS113",
+      "lessons": [
+        {
+          "_id": "L101",
+          "name": "HTML Structure",
+          "description": "A brief history of rocketry and space exploration.",
+          "module": "M4"
+        },
+        {
+          "_id": "L102",
+          "name": "Text Formatting",
+          "description": "Basic principles of rocket propulsion.",
+          "module": "M4"
+        },
+        {
+          "_id": "L103",
+          "name": "Links and Images",
+          "description": "Overview of different types of rocket engines.",
+          "module": "M4"
+        }
+      ]
+    },
+    {
+      "_id": "M5",
+      "name": "CSS and Styling",
+      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+      "course": "RS113",
+      "lessons": [
+        {
+          "_id": "L201",
+          "name": "Selectors and Properties",
+          "description": "Overview of different types of rocket fuels.",
+          "module": "M5"
+        },
+        {
+          "_id": "L202",
+          "name": "Box Model",
+          "description": "Understanding combustion processes and efficiency.",
+          "module": "M5"
+        },
+        {
+          "_id": "L203",
+          "name": "Flexbox and Grid Layout",
+          "description": "Understanding combustion instability and mitigation.",
+          "module": "M5"
+        }
+      ]
+    },
+    {
+      "_id": "M6",
+      "name": "JavaScript Basics",
+      "description": "Principles of rocket nozzle design and performance optimization.",
+      "course": "RS113",
       "lessons": [
         {
           "_id": "L301",
@@ -866,167 +1025,8 @@
       ]
     },
 
-
     {
-      "_id": "M101",
-      "name": "Introduction to HTML",
-      "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS112",
-      "lessons": [
-        {
-          "_id": "L101",
-          "name": "HTML Structure",
-          "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
-        },
-        {
-          "_id": "L102",
-          "name": "Text Formatting",
-          "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
-        },
-        {
-          "_id": "L103",
-          "name": "Links and Images",
-          "description": "Overview of different types of rocket engines.",
-          "module": "M101"
-        }
-      ]
-    },
-    {
-      "_id": "M102",
-      "name": "CSS and Styling",
-      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
-      "course": "RS112",
-      "lessons": [
-        {
-          "_id": "L201",
-          "name": "Selectors and Properties",
-          "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
-        },
-        {
-          "_id": "L202",
-          "name": "Box Model",
-          "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
-        },
-        {
-          "_id": "L203",
-          "name": "Flexbox and Grid Layout",
-          "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
-        }
-      ]
-    },
-    {
-      "_id": "M103",
-      "name": "JavaScript Basics",
-      "description": "Principles of rocket nozzle design and performance optimization.",
-      "course": "RS112",
-      "lessons": [
-        {
-          "_id": "L301",
-          "name": "Variables and Data types",
-          "description": "Overview of different types of rocket nozzles.",
-          "module": "M103"
-        },
-        {
-          "_id": "L302",
-          "name": "Functions and Events",
-          "description": "Understanding nozzle performance and efficiency.",
-          "module": "M103"
-        },
-        {
-          "_id": "L303",
-          "name": "DOM Manipulation",
-          "description": "Optimizing nozzle design for specific applications.",
-          "module": "M103"
-        }
-      ]
-    },
-
-    {
-      "_id": "M103",
-      "name": "Introduction to HTML",
-      "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS113",
-      "lessons": [
-        {
-          "_id": "L101",
-          "name": "HTML Structure",
-          "description": "A brief history of rocketry and space exploration.",
-          "module": "M101"
-        },
-        {
-          "_id": "L102",
-          "name": "Text Formatting",
-          "description": "Basic principles of rocket propulsion.",
-          "module": "M101"
-        },
-        {
-          "_id": "L103",
-          "name": "Links and Images",
-          "description": "Overview of different types of rocket engines.",
-          "module": "M101"
-        }
-      ]
-    },
-    {
-      "_id": "M103",
-      "name": "CSS and Styling",
-      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
-      "course": "RS113",
-      "lessons": [
-        {
-          "_id": "L201",
-          "name": "Selectors and Properties",
-          "description": "Overview of different types of rocket fuels.",
-          "module": "M102"
-        },
-        {
-          "_id": "L202",
-          "name": "Box Model",
-          "description": "Understanding combustion processes and efficiency.",
-          "module": "M102"
-        },
-        {
-          "_id": "L203",
-          "name": "Flexbox and Grid Layout",
-          "description": "Understanding combustion instability and mitigation.",
-          "module": "M102"
-        }
-      ]
-    },
-    {
-      "_id": "M103",
-      "name": "JavaScript Basics",
-      "description": "Principles of rocket nozzle design and performance optimization.",
-      "course": "RS113",
-      "lessons": [
-        {
-          "_id": "L301",
-          "name": "Variables and Data types",
-          "description": "Overview of different types of rocket nozzles.",
-          "module": "M103"
-        },
-        {
-          "_id": "L302",
-          "name": "Functions and Events",
-          "description": "Understanding nozzle performance and efficiency.",
-          "module": "M103"
-        },
-        {
-          "_id": "L303",
-          "name": "DOM Manipulation",
-          "description": "Optimizing nozzle design for specific applications.",
-          "module": "M103"
-        }
-      ]
-    },
-
-    {
-      "_id": "M103",
+      "_id": "M7",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS114",
@@ -1052,7 +1052,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M8",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS114",
@@ -1078,7 +1078,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M9",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS114",
@@ -1105,7 +1105,7 @@
     },
 
     {
-      "_id": "M101",
+      "_id": "M10",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS115",
@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M11",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS115",
@@ -1157,7 +1157,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M12",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS115",
@@ -1184,7 +1184,7 @@
     },
 
     {
-      "_id": "M101",
+      "_id": "M13",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS116",
@@ -1210,7 +1210,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M14",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS116",
@@ -1236,7 +1236,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M15",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS116",
@@ -1264,7 +1264,7 @@
 
 
     {
-      "_id": "M101",
+      "_id": "M16",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS117",
@@ -1290,7 +1290,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M17",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS117",
@@ -1316,7 +1316,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M18",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS117",
@@ -1343,7 +1343,7 @@
     }, 
 
     {
-      "_id": "M101",
+      "_id": "M19",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS118",
@@ -1369,7 +1369,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M20",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS118",
@@ -1395,7 +1395,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M21",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS118",
@@ -1422,7 +1422,7 @@
     },
 
     {
-      "_id": "M101",
+      "_id": "M22",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS119",
@@ -1448,7 +1448,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M23",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS119",
@@ -1474,7 +1474,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M24",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS119",
@@ -1502,7 +1502,7 @@
 
 
     {
-      "_id": "M101",
+      "_id": "M25",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS120",
@@ -1528,7 +1528,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M26",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS120",
@@ -1554,7 +1554,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M27",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS120",
@@ -1581,7 +1581,7 @@
     },
 
     {
-      "_id": "M101",
+      "_id": "M28",
       "name": "Introduction to HTML",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS121",
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "_id": "M102",
+      "_id": "M29",
       "name": "CSS and Styling",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS121",
@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "_id": "M103",
+      "_id": "M30",
       "name": "JavaScript Basics",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS121",
