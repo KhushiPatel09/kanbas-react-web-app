@@ -4,20 +4,57 @@ import { BsGripVertical } from 'react-icons/bs';
 import AssignmentLessonControlButtons from "./AssignmentLessonControlButtons";
 import { HiMiniPencilSquare } from "react-icons/hi2";
 import { IoMdArrowDropdown } from "react-icons/io";
-// import * as db from "../../Database";
-import { useParams } from "react-router";
+import * as db from "../../Database";
+import { useNavigate, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteAssignment } from "./reducer";
+import {deleteAssignment, addAssignment } from "./reducer";
+import { useState, useEffect } from "react";
+import * as assignmentsClient from "./client";
 
 
 export default function Assignments() {
-  // const assignments = db.assignments;
   const { cid } = useParams();
-  const { assignments } = useSelector((state: any) => state.assignmentsReducer);
-  const dispatch = useDispatch();
+  const [assignments, setAssignments] = useState([]);
+
+  const fetchAssignments = async () => {
+    const a = await assignmentsClient.fetchAssignment(cid);
+    setAssignments(a);
+  };
+
+  const deleteAssignment = async (assignId: any) => {
+    await assignmentsClient.deleteAssignment(assignId);
+    fetchAssignments();
+  }
+
+  useEffect(() => {
+    fetchAssignments();
+  }, []);
+
+  const navigate = useNavigate();
 
   const { currentUser } = useSelector((state: any) => state.accountReducer);
   const isFaculty = currentUser.role === 'FACULTY';
+
+  // const assignments = db.assignments;
+  // const { assignments } = useSelector((state: any) => state.assignmentsReducer);
+  // const dispatch = useDispatch();
+
+  // const createAssignmentForCourse = async () => {
+  //   if (!cid) return;
+  //   const newAssignment = { title: assignmentTitle, course: cid };
+  //   const assignment = await coursesClient.createAssignmentForCourse(cid, newAssignment);
+  //   dispatch(addAssignment(assignment));
+  // };
+
+  // const fetchAssignments = async () => {
+  //   const assignments = await coursesClient.findAssignmentForCourse(cid as string);
+  //   dispatch(setAssignments(assignments));
+  // };
+  // useEffect(() => {
+  //   fetchAssignments();
+  // }, []);
+
+ 
 
     return (
       <div>
@@ -33,9 +70,7 @@ export default function Assignments() {
                 </div>
                 </div>
                 <ul className="wd-lessons list-group rounded-0">
-                {assignments
-                    .filter((assignment: any) => assignment.course === cid)
-                    .map((assignment: any) => (
+                {assignments.map((assignment: any) => (
 
                   <li className="wd-lesson list-group-item p-3 ps-1">
                     <div className="row">
@@ -65,8 +100,10 @@ export default function Assignments() {
                       </div>
                       <div className="col-4 d-flex justify-content-end align-items-center">
                         
-                        <AssignmentLessonControlButtons  assignmentID={assignment._id} 
-                          deleteAssignment={(assignmentID) => {dispatch(deleteAssignment(assignmentID)); }} />
+                        {/* <AssignmentLessonControlButtons  assignmentID={assignment._id} 
+                          deleteAssignment={(assignmentID) => {dispatch(deleteAssignment(assignmentID)); }} /> */}
+                        <AssignmentLessonControlButtons  key={assignment._id} assignmentID={assignment._id}
+                          deleteAssignment = {deleteAssignment}  />
 
                       </div>
                     </div>

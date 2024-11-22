@@ -1,58 +1,19 @@
-// import { createSlice } from "@reduxjs/toolkit";
-// // import db from "../../Database";
-// import { assignments } from "../../Database";
-
-// const initialState = {
-//   assignments: assignments,
-//   assignment: {
-//     title: "",
-//     week: "",
-//     dueDate: "",
-//     points: "",
-//     course: "",
-//   },
-// };
-// const assignmentSlice = createSlice({
-//     name: "assignments",
-//     initialState,
-//     reducers: {
-//         addAssignment: (state, { payload: assignment }) => {
-//         const newAssignment: any = {
-//           _id: new Date().getTime().toString(),
-//           title: assignment.title,
-//       };
-//       state.assignments = [...state.assignments, newAssignment] as any;
-//     },
-//     deleteAssignment: (state, { payload: AssignmentId }) => {
-//       state.assignments = state.assignments.filter(
-//         (a: any) => a._id !== AssignmentId);
-//     },
-//     updateAssignment: (state, { payload: assignment }) => {
-//       state.assignments = state.assignments.map((a: any) =>
-//         a._id === assignment._id ? assignment : a
-//       ) as any;
-//     },
-//     editAssignment: (state, { payload: AssignmentId }) => {
-//       state.assignments = state.assignments.map((a: any) =>
-//         a._id === AssignmentId ? { ...a, editing: true } : a
-//       ) as any;
-//     },
-//   },
-//   });
-//   export const { addAssignment, deleteAssignment, updateAssignment, editAssignment } =
-//   assignmentSlice.actions;
-//   export default assignmentSlice.reducer;
-
-
 import { createSlice } from "@reduxjs/toolkit";
 import { assignments } from "../../Database";
+
+
 const initialState = {
     assignments: assignments,
+    // assignments: [],
 };
+
 const assignmentsSlice = createSlice({
     name: "assignments",
     initialState,
     reducers: {
+        // setAssignments: (state, action) => {
+        //     state.assignments = action.payload;
+        //   },      
         addAssignment: (state, { payload: assignment }) => {
             const newAssignment: any = {
                 _id: new Date().getTime().toString(),

@@ -23,18 +23,19 @@ export default function AssignmentControls() {
 
       {/* +Group and +Assignment buttons are only available to Faculty*/}
       {isFaculty && (
-      <div>
-            <button id="wd-add-assignment-group-btn" className="btn btn-lg btn-secondary me-1">
-              <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
-              Group
-            </button>
+          <div>
+                <button id="wd-add-assignment-group-btn" className="btn btn-lg btn-secondary me-1">
+                  <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
+                  Group
+                </button>
 
-              <button id="wd-add-assignment-btn" className="btn btn-lg btn-danger me-1" 
-                    onClick={() => {navigate('new', { relative: 'path' })}} >
-                    <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
-                    Assignment
-              </button>
-        </div>
+                  <button id="wd-add-assignment-btn" className="btn btn-lg btn-danger me-1" 
+                        onClick={() => {navigate('new', { relative: 'path' })}} >
+                        <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
+                        Assignment
+                  </button>
+                  {/* createAssignmentForCourse */}
+          </div>
       )
     }
 
